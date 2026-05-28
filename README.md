@@ -6,6 +6,7 @@
 # Compilation
 
  The program can be compiled with the included Gradle wrapper by running:
+
  **On Linux**
  ```
  ./gradlew build
@@ -18,6 +19,7 @@
 # Execution
 
  After compiling, the program can be executed with the Gradle run task and provided --args:
+ 
  **On Linux**
  ```
  ./gradlew run --args="<number_1> <number_2> <number_n>"
