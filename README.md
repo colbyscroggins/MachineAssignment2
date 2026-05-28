@@ -1,32 +1,42 @@
 # Requirements
 
- * Gradle
+ * Java Development Kit 21
  * No libraries or built-in functions are required to execute the program
 
 # Compilation
 
- The program can be compiled by running:
+ The program can be compiled with the included Gradle wrapper by running:
+ **On Linux**
  ```
- javac app\src\main\java\machineassignment1\ConvertDecToBin.java
+ ./gradlew build
+ ```
+ **On Windows**
+ ```
+ ./gradlew.bat build
  ```
 
 # Execution
 
- After compiling, the program can be executed with:
+ After compiling, the program can be executed with the Gradle run task and provided --args:
+ **On Linux**
  ```
- java app\src\main\java\machineassignment1\ConvertDecToBin.java <number1> <number2> <numbern>
+ ./gradlew run --args="<number_1> <number_2> <number_n>"
+ ```
+ **On Windows**
+ ```
+ ./gradlew.bat run --args="<number_1> <number_2> <number_n>"
  ```
 
 # Sample Execution & Output
 
  Compilation:
  ```
- javac app\src\main\java\machineassignment1\ConvertDecToBin.java
+ ./gradlew build
  ```
 
  Execution:
  ```
- java app\src\main\java\machineassignment1\ConvertDecToBin.java 0.5 0.25 0.75
+ ./gradlew run --args="0.5 0.25 0.75"
  ```
 
  Sample Output:
