@@ -13,7 +13,7 @@
 
 # Execution
 
- After compiling, the program can be executed with the Gradle run task and provided --args:
+ After compiling, the program can be executed with the Gradle run task and corresponding args:
 
  ```
  ./gradlew run --args="<base_value> <number_1> <number_2> <number_n>"
