@@ -16,26 +16,28 @@
  After compiling, the program can be executed with the Gradle run task and provided --args:
 
  ```
- ./gradlew run --args="<number_1> <number_2> <number_n>"
+ ./gradlew run --args="<base_value> <number_1> <number_2> <number_n>"
  ```
 
 # Sample Execution & Output
 
- Compilation:
+ Sample Compilation:
  ```
  ./gradlew build
  ```
 
- Execution:
+ Sample Execution:
  ```
- ./gradlew run --args="0.5 0.25 0.75"
+ ./gradlew run --args="60 0.5 0.25 0.75 0.8 0.16666"
  ```
 
  Sample Output:
  ```
- | Base 10 | Base 2 |
+ | Base 10 | Base 60 |
  | :-------|:-------|
- | 0.5     | 0.1    |
- | 0.25    | 0.01   |
- | 0.75    | 0.11   |
+ | 0.5     | 0.30   |
+ | 0.25    | 0.15   |
+ | 0.75    | 0.45   |
+ | 0.8     | 0.48   |
+ | 0.16666 | 0.9;59;58;33;36;0;0;0 |
  ```
