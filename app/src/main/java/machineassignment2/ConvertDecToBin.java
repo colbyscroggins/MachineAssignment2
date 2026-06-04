@@ -1,10 +1,10 @@
 /*
  * Colby Scroggins
  * CS 417
- * Machine Assignment 1
+ * Machine Assignment 2
  */
 
-package machineassignment1;
+package machineassignment2;
 
 /**
  * This class converts a decimal fraction to its binary representation.
