@@ -34,7 +34,7 @@ java {
 
 application {
     // Define the main class for the application.
-    mainClass = 'machineassignment1.ConvertDecToBin'
+    mainClass = 'machineassignment2.ConvertDecToBaseN'
 }
 
 tasks.named('test') {
