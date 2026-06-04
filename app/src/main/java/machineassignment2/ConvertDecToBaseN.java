@@ -26,15 +26,15 @@ public class ConvertDecToBaseN {
 
         int base = Integer.parseInt(args[0]);
 
-        System.out.printf("| Base 10 | Base %d |%n", base);
-        System.out.println("| :-------|:-------|");
+        System.out.printf("| Base 10  | Base %d |%n", base);
+        System.out.println("| :--------|:--------|");
 
         for (int i = 1; i < args.length; i++) {
             String arg = args[i];
             double x = Double.parseDouble(arg);
             String result = convertFractionToBaseN(x, base);
 
-            System.out.printf("| %-7s | %-6s |%n", arg, result);
+            System.out.printf("| %-8s | %-7s |%n", arg, result);
         }
     }
 
